@@ -7,6 +7,9 @@
 
 **AgriNova AI+** is a novel, browser-based agricultural intelligence platform that combines **voice-enabled TensorFlow.js AI** with **18+ intelligent modules** for crop recommendation, disease detection, market simulation, carbon footprint tracking, and sustainability insights — empowering farmers, students, and researchers with **zero-infrastructure, inclusive, and sustainable smart farming solutions.**
 
+🚀 **[Live Demo](https://aishwraya709.github.io/AgriNovaPlus/)** (Replace with your hosted link)
+
+
 ---
 
 ## 🚀 Novel Approach
