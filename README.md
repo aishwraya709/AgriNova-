@@ -1,173 +1,108 @@
+# 🌾 AgriNova AI+ — Smart Agriculture Intelligence Platform
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-4.15.0-orange)](https://www.tensorflow.org/js)
+[![Chart.js](https://img.shields.io/badge/Chart.js-4.4.0-blue)](https://www.chartjs.org/)
+[![Leaflet](https://img.shields.io/badge/Leaflet-1.9.4-green)](https://leafletjs.com/)
+
+**AgriNova AI+** is a novel, browser-based agricultural intelligence platform that combines **voice-enabled TensorFlow.js AI** with **18+ intelligent modules** for crop recommendation, disease detection, market simulation, carbon footprint tracking, and sustainability insights — empowering farmers, students, and researchers with **zero-infrastructure, inclusive, and sustainable smart farming solutions.**
 
 ---
 
-## 🌐 Integrated Website README Page
+## 🚀 Novel Approach
 
-Now I'll add a new "Project Info" page to the AgriNova AI+ website that displays all this README content in a beautiful, styled format. I'll add it to the sidebar and render it using the existing glass-card design.
+AgriNova AI+ introduces a **paradigm-shifting, fully decentralized agricultural intelligence ecosystem** that democratizes AI-powered farming by operating **entirely within the browser** — eliminating the need for servers, internet connectivity, or technical expertise — while integrating **18+ intelligent modules** that transform raw agricultural data into actionable insights through **voice-enabled interaction, real-time AI inference (TensorFlow.js), and gamified learning**, making precision agriculture accessible to farmers, students, and researchers in even the most remote regions.
 
-Here's the modified HTML with the new README page integrated:
+### Key Innovations
 
-```html
-<!-- Add this to the sidebar navigation (around line 270-280) -->
-<a href="#" data-page="readme"><i class="fas fa-book-open"></i> Project Info</a>
+- **Zero-Infrastructure AI** — All AI models run client-side via TensorFlow.js
+- **Voice-First Interaction** — Web Speech API breaks literacy barriers
+- **Privacy-First Design** — All data stays on user's device
+- **Offline Capable** — Most features work without internet
+- **Gamified Learning** — Points and badges encourage engagement
 
-<!-- Add this as a new page section (after the History page) -->
-<!-- ==========================================================
-PAGE: README (Project Info)
-========================================================== -->
-<section id="page-readme" class="page">
-    <h2 style="font-size:2rem; font-weight:800; margin-bottom:1.5rem;">
-        <i class="fas fa-book-open text-accent"></i> Project Information
-    </h2>
+---
 
-    <div class="glass">
-        <div style="display:flex; align-items:center; gap:16px; margin-bottom:1.2rem; flex-wrap:wrap;">
-            <span class="badge" style="font-size:0.8rem;">📄 README</span>
-            <span class="badge badge-warm" style="background:var(--accent-warm);">v2.0</span>
-            <span class="badge" style="background:var(--accent);">MIT License</span>
-        </div>
-        <h1 style="font-size:2.5rem; font-weight:800; background:linear-gradient(135deg, #a8e6cf, #3b8d68); -webkit-background-clip:text; background-clip:text; color:transparent;">🌾 AgriNova AI+</h1>
-        <p style="font-size:1.2rem; color:var(--text-secondary); margin:0.5rem 0 1.5rem;">
-            Smart Agriculture Intelligence Platform
-        </p>
-        <p style="line-height:1.8; color:var(--text-secondary);">
-            <strong style="color:var(--text-primary);">AgriNova AI+</strong> is a novel, browser-based agricultural intelligence platform that combines
-            <strong style="color:var(--text-primary);">voice-enabled TensorFlow.js AI</strong> with
-            <strong style="color:var(--text-primary);">18+ intelligent modules</strong> for crop recommendation,
-            disease detection, market simulation, carbon footprint tracking, and sustainability insights —
-            empowering farmers, students, and researchers with
-            <strong style="color:var(--text-primary);">zero-infrastructure, inclusive, and sustainable smart farming solutions.</strong>
-        </p>
-    </div>
+## 📊 Features at a Glance
 
-    <!-- Technology Stack -->
-    <div class="glass">
-        <div class="glass-header"><h3><i class="fas fa-code text-accent"></i> Technology Stack</h3></div>
-        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr)); gap:1rem;">
-            <div style="background:rgba(0,0,0,0.15); border-radius:var(--radius-sm); padding:1rem; text-align:center;">
-                <i class="fas fa-code" style="font-size:2rem; color:var(--accent);"></i>
-                <div style="font-weight:700; margin-top:0.3rem;">Frontend</div>
-                <div style="font-size:0.8rem; color:var(--text-secondary);">HTML5, CSS3, JavaScript ES6</div>
-            </div>
-            <div style="background:rgba(0,0,0,0.15); border-radius:var(--radius-sm); padding:1rem; text-align:center;">
-                <i class="fas fa-brain" style="font-size:2rem; color:var(--accent);"></i>
-                <div style="font-weight:700; margin-top:0.3rem;">AI/ML</div>
-                <div style="font-size:0.8rem; color:var(--text-secondary);">TensorFlow.js + MobileNet</div>
-            </div>
-            <div style="background:rgba(0,0,0,0.15); border-radius:var(--radius-sm); padding:1rem; text-align:center;">
-                <i class="fas fa-chart-bar" style="font-size:2rem; color:var(--accent);"></i>
-                <div style="font-weight:700; margin-top:0.3rem;">Charts</div>
-                <div style="font-size:0.8rem; color:var(--text-secondary);">Chart.js 4.4.0</div>
-            </div>
-            <div style="background:rgba(0,0,0,0.15); border-radius:var(--radius-sm); padding:1rem; text-align:center;">
-                <i class="fas fa-map" style="font-size:2rem; color:var(--accent);"></i>
-                <div style="font-weight:700; margin-top:0.3rem;">Mapping</div>
-                <div style="font-size:0.8rem; color:var(--text-secondary);">Leaflet.js 1.9.4</div>
-            </div>
-        </div>
-    </div>
+| **Module** | **Description** |
+|------------|-----------------|
+| **Dashboard** | Live stats, weather, yield projection chart, quick actions |
+| **Crop Advisor** | AI-powered crop recommendation with voice input, QR, PDF export |
+| **Disease Detection** | Real AI (MobileNet via TensorFlow.js) — no image upload |
+| **Soil Health** | Soil score (0-100) with actionable recommendations |
+| **Smart Irrigation** | Daily water need, frequency, and alerts |
+| **Market Simulator** | Simulated prices with bar chart and trends |
+| **Carbon Footprint** | CO₂ calculation with offset suggestions |
+| **Fertilizer Calculator** | N, P, K requirements based on soil levels |
+| **Crop Rotation** | 3-year rotation plan generator |
+| **Pest Alert** | Weather-based pest risk assessment |
+| **Profit Estimator** | Revenue, cost, and net profit calculation |
+| **Seed Selector** | Region-specific seed variety recommendations |
+| **Harvest Timer** | Days to harvest and estimated date |
+| **Yield Forecast** | ML-simulated yield prediction |
+| **Community Forum** | Local-storage based discussion board |
+| **Water Quality** | pH, TDS, nitrate, hardness analysis |
+| **Gamification** | Points and badges system |
+| **History & Export** | CSV export and history management |
+| **Chatbot** | Context-aware AI assistant |
 
-    <!-- Features Grid -->
-    <div class="glass">
-        <div class="glass-header"><h3><i class="fas fa-th-list text-accent"></i> 18+ Modules</h3></div>
-        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px,1fr)); gap:0.8rem;">
-            <div style="background:rgba(0,0,0,0.1); border-radius:var(--radius-sm); padding:0.6rem 1rem; display:flex; align-items:center; gap:10px;">
-                <i class="fas fa-chart-line" style="color:var(--accent);"></i> Crop Advisor
-            </div>
-            <div style="background:rgba(0,0,0,0.1); border-radius:var(--radius-sm); padding:0.6rem 1rem; display:flex; align-items:center; gap:10px;">
-                <i class="fas fa-microscope" style="color:var(--accent);"></i> Disease Detection
-            </div>
-            <div style="background:rgba(0,0,0,0.1); border-radius:var(--radius-sm); padding:0.6rem 1rem; display:flex; align-items:center; gap:10px;">
-                <i class="fas fa-tachometer-alt" style="color:var(--accent);"></i> Soil Health
-            </div>
-            <div style="background:rgba(0,0,0,0.1); border-radius:var(--radius-sm); padding:0.6rem 1rem; display:flex; align-items:center; gap:10px;">
-                <i class="fas fa-tint" style="color:var(--accent);"></i> Irrigation
-            </div>
-            <div style="background:rgba(0,0,0,0.1); border-radius:var(--radius-sm); padding:0.6rem 1rem; display:flex; align-items:center; gap:10px;">
-                <i class="fas fa-chart-simple" style="color:var(--accent);"></i> Market Simulator
-            </div>
-            <div style="background:rgba(0,0,0,0.1); border-radius:var(--radius-sm); padding:0.6rem 1rem; display:flex; align-items:center; gap:10px;">
-                <i class="fas fa-cloud-sun" style="color:var(--accent);"></i> Carbon Footprint
-            </div>
-            <div style="background:rgba(0,0,0,0.1); border-radius:var(--radius-sm); padding:0.6rem 1rem; display:flex; align-items:center; gap:10px;">
-                <i class="fas fa-flask" style="color:var(--accent);"></i> Fertilizer Calculator
-            </div>
-            <div style="background:rgba(0,0,0,0.1); border-radius:var(--radius-sm); padding:0.6rem 1rem; display:flex; align-items:center; gap:10px;">
-                <i class="fas fa-sync-alt" style="color:var(--accent);"></i> Crop Rotation
-            </div>
-            <div style="background:rgba(0,0,0,0.1); border-radius:var(--radius-sm); padding:0.6rem 1rem; display:flex; align-items:center; gap:10px;">
-                <i class="fas fa-bug" style="color:var(--accent);"></i> Pest Alert
-            </div>
-            <div style="background:rgba(0,0,0,0.1); border-radius:var(--radius-sm); padding:0.6rem 1rem; display:flex; align-items:center; gap:10px;">
-                <i class="fas fa-coins" style="color:var(--accent);"></i> Profit Estimator
-            </div>
-            <div style="background:rgba(0,0,0,0.1); border-radius:var(--radius-sm); padding:0.6rem 1rem; display:flex; align-items:center; gap:10px;">
-                <i class="fas fa-seedling" style="color:var(--accent);"></i> Seed Selector
-            </div>
-            <div style="background:rgba(0,0,0,0.1); border-radius:var(--radius-sm); padding:0.6rem 1rem; display:flex; align-items:center; gap:10px;">
-                <i class="fas fa-clock" style="color:var(--accent);"></i> Harvest Timer
-            </div>
-            <div style="background:rgba(0,0,0,0.1); border-radius:var(--radius-sm); padding:0.6rem 1rem; display:flex; align-items:center; gap:10px;">
-                <i class="fas fa-chart-bar" style="color:var(--accent);"></i> Yield Forecast
-            </div>
-            <div style="background:rgba(0,0,0,0.1); border-radius:var(--radius-sm); padding:0.6rem 1rem; display:flex; align-items:center; gap:10px;">
-                <i class="fas fa-comments" style="color:var(--accent);"></i> Community Forum
-            </div>
-            <div style="background:rgba(0,0,0,0.1); border-radius:var(--radius-sm); padding:0.6rem 1rem; display:flex; align-items:center; gap:10px;">
-                <i class="fas fa-water" style="color:var(--accent);"></i> Water Quality
-            </div>
-            <div style="background:rgba(0,0,0,0.1); border-radius:var(--radius-sm); padding:0.6rem 1rem; display:flex; align-items:center; gap:10px;">
-                <i class="fas fa-trophy" style="color:var(--accent);"></i> Gamification
-            </div>
-        </div>
-    </div>
+---
 
-    <!-- Unique Selling Points -->
-    <div class="glass">
-        <div class="glass-header"><h3><i class="fas fa-star text-accent"></i> Unique Selling Points</h3></div>
-        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr)); gap:0.8rem;">
-            <div style="display:flex; align-items:center; gap:10px; background:rgba(0,0,0,0.1); padding:0.6rem 1rem; border-radius:var(--radius-sm);">
-                <i class="fas fa-check-circle" style="color:#81c784;"></i> Zero-Cost — Free forever
-            </div>
-            <div style="display:flex; align-items:center; gap:10px; background:rgba(0,0,0,0.1); padding:0.6rem 1rem; border-radius:var(--radius-sm);">
-                <i class="fas fa-check-circle" style="color:#81c784;"></i> Privacy-First — No data upload
-            </div>
-            <div style="display:flex; align-items:center; gap:10px; background:rgba(0,0,0,0.1); padding:0.6rem 1rem; border-radius:var(--radius-sm);">
-                <i class="fas fa-check-circle" style="color:#81c784;"></i> Offline Capable — Most features
-            </div>
-            <div style="display:flex; align-items:center; gap:10px; background:rgba(0,0,0,0.1); padding:0.6rem 1rem; border-radius:var(--radius-sm);">
-                <i class="fas fa-check-circle" style="color:#81c784;"></i> Voice & Accessibility — Speech I/O
-            </div>
-            <div style="display:flex; align-items:center; gap:10px; background:rgba(0,0,0,0.1); padding:0.6rem 1rem; border-radius:var(--radius-sm);">
-                <i class="fas fa-check-circle" style="color:#81c784;"></i> AI-Powered — TensorFlow.js
-            </div>
-            <div style="display:flex; align-items:center; gap:10px; background:rgba(0,0,0,0.1); padding:0.6rem 1rem; border-radius:var(--radius-sm);">
-                <i class="fas fa-check-circle" style="color:#81c784;"></i> 18+ Modules — All-in-one
-            </div>
-            <div style="display:flex; align-items:center; gap:10px; background:rgba(0,0,0,0.1); padding:0.6rem 1rem; border-radius:var(--radius-sm);">
-                <i class="fas fa-check-circle" style="color:#81c784;"></i> Export & Share — PDF, CSV, QR
-            </div>
-            <div style="display:flex; align-items:center; gap:10px; background:rgba(0,0,0,0.1); padding:0.6rem 1rem; border-radius:var(--radius-sm);">
-                <i class="fas fa-check-circle" style="color:#81c784;"></i> Open Source — MIT License
-            </div>
-        </div>
-    </div>
+## 🛠️ Technology Stack
 
-    <!-- License & Credits -->
-    <div class="glass" style="border-left:6px solid var(--accent);">
-        <div style="display:flex; flex-wrap:wrap; gap:2rem; justify-content:space-between;">
-            <div>
-                <h4 style="font-weight:600; margin-bottom:0.3rem;"><i class="fas fa-gavel text-accent"></i> License</h4>
-                <p style="color:var(--text-secondary);">MIT License — Free to use, modify, and distribute</p>
-            </div>
-            <div>
-                <h4 style="font-weight:600; margin-bottom:0.3rem;"><i class="fas fa-user-graduate text-accent"></i> Program</h4>
-                <p style="color:var(--text-secondary);">NPUST New Southbound 2026</p>
-            </div>
-            <div>
-                <h4 style="font-weight:600; margin-bottom:0.3rem;"><i class="fas fa-code-branch text-accent"></i> Version</h4>
-                <p style="color:var(--text-secondary);">v2.0 — Expanded Edition</p>
-            </div>
-        </div>
-    </div>
-</section>
+| **Layer** | **Technologies** |
+|-----------|------------------|
+| **Frontend** | HTML5, CSS3 (Glassmorphism), JavaScript ES6 |
+| **AI/ML** | TensorFlow.js 4.15.0 + MobileNet 2.1.1 |
+| **Charting** | Chart.js 4.4.0 |
+| **Mapping** | Leaflet.js 1.9.4 |
+| **PDF Export** | html2pdf.js 0.10.1 |
+| **QR Code** | QRCode.js 1.0.0 |
+| **Speech** | Web Speech API |
+| **Persistence** | localStorage |
+| **APIs** | Open-Meteo Weather API |
+| **Fonts** | Google Fonts (Inter), Font Awesome 6.5.0 |
+
+---
+
+## 🎯 Use Cases
+
+### 👨‍🌾 Smallholder Farmers
+- Diagnose leaf diseases without internet
+- Voice input for low-literacy users
+- Irrigation advice to reduce water waste
+- Market simulation to decide when to sell
+
+### 👩‍🏫 Agricultural Extension Officers
+- Carry the tool on a tablet during field visits
+- Generate PDF reports for farmers
+- Demonstrate carbon footprint and soil health concepts
+
+### 🌍 NGOs & Development Programs
+- Monitor regenerative agriculture projects
+- Train farmers using integrated tips and visual gauges
+
+### 🎓 Students & Researchers
+- Study client-side AI (TensorFlow.js) in resource-constrained settings
+- Modify the code to add real ML models
+- Compare rule-based vs. ML-based crop recommendations
+
+---
+
+## 📁 Project Structure
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Any modern web browser (Chrome, Edge, Firefox, Safari)
+- Internet connection for first load (CDN libraries)
+
+### Installation
+
+1. **Download the project**
+   ```bash
+   git clone https://github.com/yourusername/AgriNovaPlus.git
+   cd AgriNovaPlus
